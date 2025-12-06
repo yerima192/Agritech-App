@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.couleur {
+    background-color: #FEF7DF !important;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.couleur-2 {
+    color: #565754;
+}
+
+.sieze span {
+    font-size: 20px;
+}
+
+.sieze i {
+    font-size: 20px;
+}
+
+.logo {
+    width: 70px;
+    height: 40px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.none {
+    display: none !important;
+    position: fixed !important;
+    z-index: 1000;
+}
+
+.somon {
+    background-color: #FFF7DE;
+}
+
+.ms-2 {
+    font-size: 22px;
+}
+
+.widht {
+    width: 300px !important;
+}
+
+.connect {
+    width: 200px;
+}
+
+.verte {
+    background-color: #1D3D13 !important;
+}
+
+.animation i {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.animation:hover i {
+    transform: translateX(5px);
+}
+
+.input-largeur {
+    width: 400px !important;
+}
+
+.taille {
+    width: 92% !important;
+}
+
+.size {
+    font-size: 14px !important;
+}
+
+.hero-70 {
+    height: 70vh;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.left {
+    right: 0;
+}
+
+.jaune {
+    background-color: #D6C361 !important;
+    color: #1D3D13 !important;
+}
+
+.jaune:hover {
+    background-color: #d6c261b4 !important;
+}
+
+.blanc:hover {
+    background-color: #1d3d1393 !important;
+}
+
+.hover-button:hover {
+    background-color: #1B9161 !important;
+    color: white;
+}
+
+.footerHover:hover {
+    background-color: #1d3d13e9 !important;
+}
+
+.none-4 {
+    display: none;
+}
+
+.container img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.image-taille {
+    width: 200px;
+    height: 200px;
+
+}
+
+.image-taille img {
+    width: 100%;
+    height: 100%;
+}
+
+.white-card {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    max-height: 150px;
+    overflow: hidden;
+    transition: max-height 0.6s ease, transform 0.6s ease, width 0.6s ease, padding 0.6s ease;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.custom-card:hover .white-card {
+    max-height: 400px;
+    width: 85%;
+    padding: 20px;
+}
+
+.extra-content {
+    opacity: 0;
+    transition: opacity 0.3s ease 0.2s;
+}
+
+.white-card .hoverlay {
+    opacity: 0;
+    transition: opacity 0.3s ease 0.2s;
+}
+
+.custom-card:hover .hoverlay {
+    opacity: 1;
+}
+
+.custom-card:hover .extra-content {
+    opacity: 1;
+}
+
+.card-img-bg {
+    transition: transform 1s ease-in-out;
+}
+
+.custom-card:hover .card-img-bg {
+    transform: scale(1.4) rotate(20deg);
+}
+
+.voiboutton:hover {
+    padding: 15px !important;
+    border-radius: 18px;
+    background-color: #1D3D13 !important;
+    color: white !important;
+
+}
+
+section .bloque {
+    display: none;
+}
+.formation-animation {
+    transition: transform 0.4s ease, opacity 0.4s ease;
+}
+
+.formation-animation:hover {
+    transform: scale(1.06);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+
+
+@media (max-width:768px) {
+    .none-3 {
+        display: none !important;
+    }
+
+    div .disparait {
+        display: none !important;
+    }
+
+    .none-4 {
+        display: block !important;
+    }
+
+    .displaynone {
+        opacity: 0;
+
+    }
+
+    .blook {
+        display: block !important;
+    }
+
+    section .bloque {
+        display: block;
+        display: flex;
+    }
+    .noe10{
+        display: none !important;
+    }
+
+
+}
+
+@media (max-width:425px) {
+    .none {
+        display: block !important;
+    }
+
+    .none-2 {
+        display: none !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler {
+    display: none;
+}
+
+
+@media (max-width: 425px) {
+    .navbar-toggler {
+        display: block;
+    }
+
+
+    .navbar-nav {
+        display: none !important;
+    }
+}

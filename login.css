@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #EFDF68;
+    overflow: hidden;
+}
+
+.largueur {
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    background: white;
+    height: 500px;
+    background-color: #1D3D13;
+    color: white;
+}
+
+.raduis {
+    width: 120px;
+}
+
+.line {
+    line-height: 30px;
+}
+
+.image {
+    width: 180px;
+    height: 180px;
+}
+
+.image img {
+    border: solid #ccc 0, 1px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+.gris {
+    color: #565754;
+}

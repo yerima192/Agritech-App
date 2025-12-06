@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agritech App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+      <header class="container-fluid p-0">
+        <nav class=" navbar bg-light none  w-100  bg-white  top-0">
+            <div class="container-fluid">
+                <div class="d-flex justify-content-center align-items-center w-75">
+                    <div class="image">
+                        <img src="./assets/favico.png" alt="">
+                    </div>
+                    <h5 class="offcanvas-title couleur-2" id="offcanvasNavbarLabel">
+                        Agritech Menu
+                    </h5>
+                </div>
+
+                <button class="navbar-toggler shadow-none " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+
+                    <div class="offcanvas-header p-2">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="image">
+                                <img src="./assets/favico.png" alt="">
+                            </div>
+                            <h5 class="offcanvas-title couleur-2" id="offcanvasNavbarLabel">
+                                Agritech Menu
+                            </h5>
+                        </div>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="w-75 text-center ">
+                            <button type="button" class="btn verte p-2 text-light w-75 rounded-5 sieze fw-bold">
+                                <span class="me-3 ">Connect</span>
+                                <i class="bi bi-box-arrow-in-left"></i>
+                            </button>
+                        </div>
+                        <hr>
+
+                        <div class="d-flex flex-column ">
+                            <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder" href="./index.html">Home
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder" href="#">Blogs
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder" href="#">Météo
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                            <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder" href="#">Indicateurs
+                                <i class="bi bi-arrow-up-right"></i>
+                            </a>
+
+                        </div>
+
+                        <hr>
+
+
+                        <div class="socials text-center text-black opacity-75">
+                            <h3>socials Links:</h3>
+                            <div class=" d-flex justify-content-center align-items-center gap-4 mt-3">
+                                <div class="logo d-flex justify-content-center align-items-center gap-2">
+                                    <img src="./assets/Niger.png" alt="">
+                                    <span class="text-black fw-bolder">NE</span>
+
+                                </div>
+                                <div class="border-start border-2 border-black">
+                                    <i class="bi bi-twitter-x fs-2 ms-2"></i>
+                                    <i class="bi bi-facebook fs-2 ms-2"></i>
+                                    <i class="bi bi-linkedin fs-2 ms-2"></i>
+                                    <i class="bi bi-instagram fs-2 ms-2"></i>
+                                    <i class="bi bi-tiktok fs-2 ms-2"></i>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="text-center mt-4 text-black fw-bolder">
+                            <p><i class="bi bi-envelope me-2 fs-3"></i>
+                                <span> Support@agritech.com</span>
+                            </p>
+                            <p><i class="bi bi-telephone me-2 fs-3"></i>
+                                <span> (00227) 90380777</span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section class="container-fluid p-0 w-100 none-2  bg-white">
+            <div class=" container-fluid somon d-flex justify-content-between align-items-center p-3">
+                <div
+                    class="text-center text-black fw-bolder d-flex justify-content-start align-items-center gap-3 disparait">
+                    <p class="d-flex justify-content-center align-items-center"><i class="bi bi-envelope me-2 fs-4"></i>
+                        <span> Support@agritech.com</span>
+                    </p>
+                    <p class="d-flex justify-content-center align-items-center"><i
+                            class="bi bi-telephone me-2 fs-4"></i>
+                        <span> (00227) 90380777</span>
+                    </p>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="image">
+                        <img src="./assets/favico.png" alt="">
+                    </div>
+                    <h5 class="text-black fw-bold" id="">
+                        Agritech App
+                    </h5>
+                </div>
+                <div class=" d-flex justify-content-center align-items-center gap-4 ">
+                    <div class="logo d-flex justify-content-center align-items-center gap-2">
+                        <img src="./assets/Niger.png" alt="">
+                        <span class="text-black fw-bolder">NE</span>
+
+                    </div>
+                    <div class="border-start border-2 border-black">
+                        <i class="bi bi-twitter-x  ms-2"></i>
+                        <i class="bi bi-facebook  ms-2"></i>
+                        <i class="bi bi-linkedin  ms-2"></i>
+                        <i class="bi bi-instagram  ms-2"></i>
+                        <i class="bi bi-tiktok  ms-2"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class=" container-fluid p-3 shadow-sm d-flex justify-content-between align-items-center">
+                <div class="input-group  widht none-3">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="bi bi-search"></i>
+                    </span>
+                    <input type="text" class="form-control " placeholder="Search Anything......" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="">
+                    <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder animation"
+                        href="./index.html"><span>Home</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder animation"
+                        href="./formation.html"><span>Formations</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder animation"
+                        href=""><span>Météo</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+                    <a class="text-decoration-none m-2 text-black opacity-75 fw-bolder animation"
+                        href=""><span>Indicateurs</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </a>
+
+                </div>
+                <div class="">
+                    <button type="button" class="btn verte p-2 text-light connect rounded-5 fs-5 fw-bold footerHover ">
+                       <a class="text-decoration-none text-light" href="./login.html">
+                         <span class="me-3 ">Connect</span>
+                        <i class="bi bi-box-arrow-in-left"></i>
+                       </a>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main class="container-fluid p-0 w-100 ">
+        <div class="container position-relative ">
+            <img class="img-fluid w-100 rounded-3 mt-5" src="./assets/Home Carroussel (1).jpg" alt="">
+
+
+            <h3 class="text-white  position-absolute top-50 start-50 bottom-50 translate-middle fw-bold text-nowrap">
+                <li class="mb-2 d-flex justify-content-center align-items-center gap-2 fs-6">
+                    <a href="#" class="text-white text-decoration-none">Home</a><span>> ></span>Details formations
+                </li>
+                Details Formations
+            </h3>
+        </div>
+
+
+
+        <section class="container my-5">
+
+            <div class="row g-5">
+
+                <div class="col-lg-4 ">
+                    <div class="p-4 shadow-sm author-bg  text-center rounded-3 overflow-hidden "
+                        style="background-color: #f7e875;">
+
+                        <img src="./assets/avatar-1.png" class="img-fluid w-50 h-50 rounded-circle mb-3" alt="profile">
+
+                        <h4 class="fw-bold mb-0 text-black opacity-75 mb-3">Malika Malikakou</h4>
+                        <small class="text-muted d-block mb-3 text-black opacity-75">Spécialiste Environnement</small>
+
+                        <p class="mb-4 text-black opacity-50 mt-2">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio quos officiis excepturi ullam odit facere ad nihil.
+                            Distinctio quos officiis excepturi ullam odit facere ad nihil.
+                        </p>
+
+                        <div class="d-flex justify-content-center gap-3 ">
+                            <i class="bi bi-facebook fs-3 m-3"></i>
+                            <i class="bi bi-instagram fs-3 m-3"></i>
+                            <i class="bi bi-twitter-x fs-3 m-3"></i>
+                            <i class="bi bi-linkedin fs-3 m-3"></i>
+                        </div>
+
+                    </div>
+                    <div class=" shadow-sm mt-4 d-flex justify-content-center flex-column w-100 align-items-center p-4 rounded-4"
+                        style="background-color:  #E3E6E7 ;">
+                        <div class="">
+                            <h5 class=" text-black opacity-100">Categories</h5>
+                            <p class=" text-success ">Jardinnage</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 shadow-sm author-bg  text-center rounded-3 overflow-hidden">
+
+                    <h2 class="fw-bold mb-4 text-start">Lorem dolor</h2>
+                    <div class="">
+                        <img src="./assets/Blog-img-1.jpg" class="img-fluid mb-3 rounded-4 overflow-hidden"
+                            alt="article-image">
+                    </div>
+
+
+
+                    <p class="text-start text-black opacity-75">
+                        By Malika Malikakou | Published on 10/08/2020
+                    </p>
+
+                    <p class="text-black opacity-50 text-start p-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Vitae unde natus, culpa eius aliquam adipisci labore itaque dolorem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Vitae unde natus, culpa eius aliquam adipisci labore itaque dolorem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Vitae unde natus, culpa eius aliquam adipisci labore itaque dolorem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Vitae unde natus, culpa eius aliquam adipisci labore itaque dolorem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="container border-top m-auto p-2 ">
+            <h4 class="mt-3">Comments (7)</h4>
+
+            <div class="row p-3">
+
+                <div class=" col-md-6 col-8 p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2 d-flex justify-content-start align-items-start flex-wrap flex-column">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam76@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 06:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Idi <span class="text-muted">(idi6@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 05:14:53</small>
+                            <p class="mt-2 mb-0">Formation intéressante!</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam95@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 04:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam95@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 04:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam95@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 04:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam95@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 04:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+                <div class=" col-md-6 col-8  p-2 border border-success-subtle rounded m-2">
+                    <div class="d-flex justify-content-between align-items-start">
+                        <div class="p-2">
+                            <h6 class="fw-bold mb-1">Mariam <span class="text-muted">(mariam95@example.com)</span></h6>
+                            <small class="text-muted">01/12/2025 04:14:53</small>
+                            <p class="mt-2 mb-0">Merci du partage.</p>
+                        </div>
+                        <i class="bi bi-arrow-return-left fs-4"></i>
+                    </div>
+                </div>
+
+                <div class="w-100"></div>
+            </div>
+
+        </section>
+
+
+        <section class="container mt-5 d-flex justify-content-end align-items-center ">
+            <div class="col-10 p-3 rounded-3 " style="background-color: #E9EDEE;">
+            <h4 class="text-black opacity-75">Add a Comment</h4>
+
+                <div class="row">
+                    <div class=" col-md-6 col-md-12 m-2">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6 col-md-12 m-2">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="form-floating mt-3">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                        style="height: 300px"></textarea>
+                    <label for="floatingTextarea2">Your Comment</label>
+                </div>
+                <button type="button" class="btn btn-success mt-4 fs-6 p-3 rounded-5" style="background-color: #1D3D13;"><span>Submit Comment</span><i class="bi bi-arrow-up-right ms-2 fs-5"></i></button>
+            </div>
+        </section>
+
+
+
+
+
+
+
+    </main>
+
+
+    <footer class="container-fluid p-0 bg-light w-100">
+        <section class="bg-white w-100 shadow-lg">
+
+            <div class="w-100 ">
+                <div class=" mt-3  d-flex justify-content-end align-items-center gap-5 me-5 p-4">
+                    <h5 class="fs-5 text-black opacity-75 text-nowrap">Join Our Newsletter </h5>
+                    <div class="input-group input-largeur">
+                        <input type="email" class="form-control position-relative w-75 none-2"
+                            placeholder="Enter your Email">
+                        <button class="btn  rounded-5 position-absolute  left text-light verte" style="width: 100px;">
+                            S'abonner</button>
+                    </div>
+                </div>
+                <div class=" p-4">
+                    <div class="row gy-4">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="image me-2">
+                                    <img src="./assets/favico.png" alt="" class="img-fluid">
+                                </div>
+                                <h5 class="fw-bold text-black">Agritech App</h5>
+                            </div>
+
+                            <p class="text-black opacity-75 w-75">
+                                Organic farming avoids toxins. Farmers care for soil and grow crops that are
+                                safe, natural. Farmers care for soil. Farmers care for soil.
+                            </p>
+
+                            <div class="mt-3">
+                                <span class="fw-bolder">Suivez-nous sur :</span>
+                                <div class="mt-2">
+                                    <i class="bi bi-twitter-x ms-2"></i>
+                                    <i class="bi bi-facebook ms-2"></i>
+                                    <i class="bi bi-linkedin ms-2"></i>
+                                    <i class="bi bi-instagram ms-2"></i>
+                                    <i class="bi bi-tiktok ms-2"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <h5 class="fw-bold">Liens Utiles</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Home</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Formations</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Météo</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Indicateurs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6">
+                            <h5 class="fw-bold">Nos Services</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Home</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Formations</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Météo</a>
+                                </li>
+                                <li class="mb-2 d-flex align-items-center gap-2">
+                                    <span>> ></span> <a href="#"
+                                        class="text-black fw-bold text-decoration-none">Indicateurs</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 text-nowrap">
+                            <h5 class="fw-bold">Contactez-Nous</h5>
+                            <a class="text-decoration-none  text-black  fw-bolder d-flex gap-1 size mt-2" href="">
+                                <i class="bi bi-telephone me-2 fs-3"></i>
+                                <span class="text-black d-flex flex-column opacity-50">Phone:
+                                    <span>(00227 90380777)</span>
+                                </span>
+
+                            </a>
+                            <a class="text-decoration-none  text-black fw-bolder d-flex gap-1 size mt-4" href="">
+                                <i class="bi bi-geo-alt-fill fs-3 me-2"></i>
+                                <span class="text-black d-flex flex-column opacity-50">Location:
+                                    <span>Niamey, Niger</span>
+                                </span>
+
+                            </a>
+                            <a class="text-decoration-none  text-blackfw-bolder d-flex gap-1 size mt-4" href="">
+                                <i class="bi bi-envelope fs-3 me-2 text-black"></i>
+                                <span class="text-black d-flex flex-column opacity-50 fw-bolder">E-mail:
+                                    <span>Support@agritech.com</span>
+                                </span>
+
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="w-100 verte footerHover">
+                    <p class="text-light fs-6 text-start p-4 m-0 footerHover">
+                        &copy; 2025 Codeloccol, All Rights Reserved
+                    </p>
+                </div>
+
+        </section>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
